@@ -1,0 +1,207 @@
+
+.top-head{
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 100px;
+    height: 200px;
+    width: 100%;
+    background-color: #143;
+    color:white;
+    display: flex;
+    justify-content: center;
+    background-image: url('images.jpg');
+    background-size: contain;
+}
+.content1{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: cursive;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.search-icon{
+    height: 20px;
+   display: flex;
+   justify-content:space-evenly;
+   align-items: center;
+}
+.feedback a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.prefrence{
+    margin-top: 5px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    gap: 10px;
+    background-color: rgb(2, 2, 2);
+}
+.prefrence img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: all ease-in-out 0,5s;
+}
+.prefrence img:hover{
+    width: 25%;
+}
+.diffrent{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 180, 199);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: 700;
+    
+
+}
+.secondbook{
+    color: white;
+    font-family: cursive;
+    margin-top: 5px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    gap: 10px;
+    background-color: rgb(2, 2, 2);
+}
+.secondbook img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: all ease-in-out 0,5s;
+}
+.secondbook img:hover{
+    width: 25%;
+}
+.deliver a{
+    text-decoration: none;
+    color: white;
+}
+.cart a{
+    text-decoration: none;
+    color: white;
+
+}
+.fav a{
+    text-decoration: none;
+    color: white;
+
+}
+.account a{
+    text-decoration: none;
+    color: white;
+}
+.feedback a{
+    text-decoration: none;
+    color: white;
+}
+.mainbody{
+    height: 100px;
+    width: 100%;
+    color: rgb(253, 8, 8);
+    background-color: rgb(224, 224, 88);
+    font-size: 40px;
+    font-family: cursive;
+    display: flex;
+
+
+}
+.container4 {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color:rgb(175, 184, 187);
+    color: rgb(3, 3, 3);
+    font-family: cursive;
+    font-weight: 700;
+    background-size: contain;
+    background-image: url("information.jpg");
+    
+}
+.container4  {
+    display: block;
+   
+    
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.container4 button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+}
+.container4 .boy-button {
+    background-color: #007bff;
+    color: #fff;
+}
+.container4 .girl-button {
+    background-color: #e83e8c;
+    color: #fff;
+}
+.yourname{
+    background-color: black;
+    color: rgb(238, 6, 6);
+
+}
+.container5{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    
+    
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;}
+
+    .yourname {
+        margin: 6px; /* Optional: Adds space around each item */
+        padding: 10px; /* Optional: Adds space inside each item */
+        border: 3px solid #000; /* Optional: Adds border to each item */
+        
+    }
+
+
+.container5{
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    background-color: #143;
+    text-align: center;
+    font-size: x-large;
+    color:yellow;
+}
